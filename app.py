@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+import shutil
 import os
 import pytesseract
 tesseract_path = shutil.which("tesseract")
